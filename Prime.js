@@ -5,6 +5,6 @@ for(let i = 1; i <= check; i++){
         count++;
     }
 }
-if(count == 3){ 
+if(count == 2){ 
     console.log('Yes Its Prime');
 }
