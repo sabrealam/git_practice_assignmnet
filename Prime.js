@@ -1,10 +1,18 @@
-let check = 23;
-let count = 0;
-for(let i = 1; i <= check; i++){
-    if(check % i == 0){
-        count++;
-    }
+let n = 23;
+
+if(isPrime(n)){ 
+    console.log('Yes It is a Prime Number');
+}else{
+    console.log(n+ 'is not a Prime Number');
 }
-if(count == 3){ 
-    console.log('Yes Its Prime');
+
+
+function isPrime(n){
+    if (n <= 1)
+        return false;
+
+    for (let i = 2; i < n; i++)
+        if (n % i == 0)
+            return false;
+    return true;
 }
