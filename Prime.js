@@ -6,7 +6,6 @@ if(isPrime(n)){
     console.log(n+ 'is not a Prime Number');
 }
 
-
 function isPrime(n){
     if (n <= 1)
         return false;
